@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '14.0'
-s.name = "CrPermissions"
-s.summary = "CrPermissions allows you to check all permissions from iOS"
+s.name = "CRPermissions"
+s.summary = "CRPermissions allows you to check all permissions from iOS"
 s.requires_arc = true
 
 # 2
@@ -27,10 +27,10 @@ s.source = { :git => "https://github.com/Venki1221/CRPermissions.git",
 s.framework = "UIKit"
 
 # 8
-s.source_files = "CrPermissions/**/*.{swift}"
+s.source_files = "CRPermissions/**/*.{swift}"
 
 # 9
-s.resources = "CrPermissions/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "CRPermissions/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5.0"
