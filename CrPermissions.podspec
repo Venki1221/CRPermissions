@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '12.0'
+s.ios.deployment_target = '14.0'
 s.name = "CrPermissions"
 s.summary = "CrPermissions allows you to check all permissions from iOS"
 s.requires_arc = true
