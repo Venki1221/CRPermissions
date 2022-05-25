@@ -30,7 +30,7 @@ s.framework = "UIKit"
 s.source_files = "CRPermissions/**/*.{swift}"
 
 # 9
-s.resources = "CRPermissions/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "CRPermissions/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5.0"
