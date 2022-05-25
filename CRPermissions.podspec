@@ -27,7 +27,7 @@ s.source = { :git => "https://github.com/Venki1221/CRPermissions.git",
 s.framework = "UIKit"
 
 # 8
-s.source_files = "CRPermissions/**/*.{swift}"
+s.source_files = "CRPermissions/*.{swift}"
 
 # 9
 #s.resources = "CRPermissions/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
