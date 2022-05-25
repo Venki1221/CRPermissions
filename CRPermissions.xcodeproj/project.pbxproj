@@ -21,6 +21,7 @@
 		14B81099283E11F800952E37 /* MicrophonePermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8108B283E11F800952E37 /* MicrophonePermission.swift */; };
 		14B8109A283E11F800952E37 /* PermissionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8108C283E11F800952E37 /* PermissionProtocol.swift */; };
 		14B8109B283E11F800952E37 /* HealthPermisssion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8108D283E11F800952E37 /* HealthPermisssion.swift */; };
+		14B8109D283E137600952E37 /* CRPermissionsPackage in Resources */ = {isa = PBXBuildFile; fileRef = 14B8109C283E137600952E37 /* CRPermissionsPackage */; };
 		14C7F3C3282911A100950DE0 /* CRPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C7F3C2282911A100950DE0 /* CRPermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		14B8108B283E11F800952E37 /* MicrophonePermission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophonePermission.swift; sourceTree = "<group>"; };
 		14B8108C283E11F800952E37 /* PermissionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionProtocol.swift; sourceTree = "<group>"; };
 		14B8108D283E11F800952E37 /* HealthPermisssion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthPermisssion.swift; sourceTree = "<group>"; };
+		14B8109C283E137600952E37 /* CRPermissionsPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CRPermissionsPackage; sourceTree = "<group>"; };
 		14C7F3BF282911A100950DE0 /* CRPermissions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRPermissions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C7F3C2282911A100950DE0 /* CRPermissions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPermissions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +59,7 @@
 		14C7F3B5282911A100950DE0 = {
 			isa = PBXGroup;
 			children = (
+				14B8109C283E137600952E37 /* CRPermissionsPackage */,
 				14C7F3C1282911A100950DE0 /* CRPermissions */,
 				14C7F3C0282911A100950DE0 /* Products */,
 			);
@@ -162,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14B8109D283E137600952E37 /* CRPermissionsPackage in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
